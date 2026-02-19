@@ -1,0 +1,6 @@
+[
+  { "pattern": "/api/user/.*", "target": "http://localhost:3001" },
+  { "pattern": "/api/order/.*", "target": "http://localhost:3002" },
+  { "pattern": "/api/.*", "target": "http://localhost:3000" },
+  { "pattern": ".*", "target": "http://localhost:3000" }
+]
